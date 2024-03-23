@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maung's LatYar</title>
+
+  <!-- Webpage Icon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- BOOTSTRAP CDN LINK -->
+
+  <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <!-- google-awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link rel="stylesheet" href="design/main.css" />
+  <link rel="stylesheet" href="design/intro.css" />
+  <link rel="stylesheet" href="design/contact_content.css" />
+  <link rel="stylesheet" href="heroIntro.css" />
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="photos/logoBlogFnC.png" alt="Maung's Recipes" />
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="ContainerNav">
+        <a href="index.html" class="nav-link"> home </a>
+        <a href="recipes.html" class="nav-link"> recipes </a>
+        <a href="tags.html" class="nav-link"> tags </a>
+        <a href="about.html" class="nav-link"> about </a>
+
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn"> Sign In </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+          <h1>simply recipes</h1>
+          <h4>no fluff, just recipes</h4>
+  
+          <form class="d-flex">
+            <input type="text" class="form-control me-2" placeholder="Search" required>
+            <button type="button" class="btn">Search</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="subtitle">
+      <h3><span>PANCAKES</span></h3>
+    </div>
+    <div>
+        <!-- recipes list -->
+      <div class="recipes-list">
+
+        <a href="single-recipe.html" class="recipe box">
+          <img
+            src="photos/recipe-4.jpeg"
+            class="img recipe-img"
+            alt=""
+          />
+          <h5>Banana Pancakes</h5>
+          <p>Prep : 15min | Cook : 30min</p>
+        </a>
+
+        <a href="single-recipe.html" class="recipe box">
+          <img
+            src="photos/Brecipe3.webp"
+            class="img recipe-img"
+            alt=""
+          />
+          <h5>Burmese Pancakes</h5>
+          <p>Prep : 15min | Cook : 5min</p>
+        </a>
+      </div>
+  </main>
+
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">Maung's Kitchen</span> Built by
+      <a href="https://www.johnsmilga.com/">Myint Myat Maung.</a>
+      <span>All Rights Reserved</span>
+    </p>
+  </footer>
+
+</body>
+</html>
